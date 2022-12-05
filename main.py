@@ -22,8 +22,8 @@ import os
 db = Database()
 
                                    # set your owner_id and token to docker-compose.yml and start it
-OWNER_ID = os.environ['owner_id']  # or insert owner id to OWNER_ID
-TOKEN = os.environ['token']        # and insert token to TOKEN
+OWNER_ID = os.environ['-1001826093891']  # or insert owner id to OWNER_ID
+TOKEN = os.environ['5741406902:AAHbzn5294AGYW2Nf1Pbum3F2-W8LON4BrM']        # and insert token to TOKEN
                                    # and just run main.py
 
 updater = Updater(TOKEN, use_context=True)
